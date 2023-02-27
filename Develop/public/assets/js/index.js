@@ -4,6 +4,7 @@ let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
+
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
@@ -26,7 +27,7 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('/api/notes', {
+  fetch('api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -34,7 +35,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch('/api/notes', {
+  fetch('api/notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -42,8 +43,9 @@ const saveNote = (note) =>
     body: JSON.stringify(note),
   });
 
+
 const deleteNote = (id) =>
-  fetch(`/api/notes/${id}`, {
+  fetch(`api/notes/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
@@ -65,9 +67,11 @@ const renderActiveNote = () => {
     noteText.value = '';
   }
 };
+// Generate a new unique ID for the note
 
 const handleNoteSave = () => {
   const newNote = {
+   
     title: noteTitle.value,
     text: noteText.value,
   };
