@@ -25,7 +25,8 @@
 
 # Usage/MockUp
 
-![alt text](assets/img/WeatherFunctionality(1).png)
+![alt text](/public/assets/img/express%20readme%20shots.png)
+![alt text](/public/assets/img/exrpess%20readme%20added%20note.png)
 
 
 
@@ -48,7 +49,7 @@
 
 
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -58,13 +59,19 @@
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+![Exrpess.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+
+
+
+
 
 
 
 # deployment/gitHub
 
-deployment: https://ricardoci.github.io/WeatherForecastApp/
+deployment: https://note-takerr.herokuapp.com/
 
-gitHub: https://github.com/ricardoci/WeatherForecastApp
+gitHub: https://github.com/ricardoci/Note-Taker
 
