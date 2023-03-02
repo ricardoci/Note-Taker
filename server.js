@@ -7,7 +7,7 @@ const path = require("path");
 app.use(express.json());
 
 // Middleware for parsing JSON
-const PORT = process.env.Port || 3001;
+const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
