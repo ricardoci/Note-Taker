@@ -54,6 +54,7 @@ app.post("/api/notes", (req, res) => {
     });
   });
 });
+
 // Route for index.html (catch-all route)
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/index.html"))
